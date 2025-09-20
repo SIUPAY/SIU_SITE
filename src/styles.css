@@ -89,6 +89,7 @@ body {
     align-items: center;
     overflow: hidden;
     background: linear-gradient(135deg, #ffffff 0%, #f8fafc 100%);
+    padding-top: 80px; /* fixed navbar offset */
 }
 
 .hero-container {
@@ -546,6 +547,16 @@ body {
         font-size: 36px;
     }
     
+    .hero-visual {
+        height: 360px; /* 줄었을 때 카드가 겹치지 않게 */
+    }
+    .floating-card {
+        transform: none !important; /* 모바일에서 과한 튐 방지 */
+    }
+    .card-1 { top: 0; left: 10%; right: 10%; }
+    .card-2 { top: 140px; right: auto; left: 10%; }
+    .card-3 { bottom: auto; top: 260px; left: 10%; }
+    
     .nav-links {
         display: none;
     }
@@ -553,7 +564,11 @@ body {
     .hero-buttons,
     .cta-buttons {
         flex-direction: column;
+        width: 100%;
+        max-width: 320px;
+        margin: 0 auto;
     }
+    .btn-primary, .btn-download, .btn-secondary { width: 100%; justify-content: center; }
     
     .footer-content {
         grid-template-columns: 1fr;
@@ -580,6 +595,13 @@ body {
     
     .stats-grid {
         grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* Tablet and below: hide floating hero cards to prevent overlap */
+@media (max-width: 1024px) {
+    .hero-visual .floating-card {
+        display: none;
     }
 }
 

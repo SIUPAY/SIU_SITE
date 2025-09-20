@@ -15,7 +15,7 @@ export default function Features() {
               </svg>
             </div>
             <h3>Instant settlement</h3>
-            <p>Finalize transactions in ~0.5s with parallel execution</p>
+            <p>Sub‑second finality thanks to parallel execution (Narwhal/Bullshark).</p>
           </div>
 
           <div className="feature-card">
@@ -26,8 +26,8 @@ export default function Features() {
                 <circle cx="16" cy="28" r="2" fill="#4BA3FF" />
               </svg>
             </div>
-            <h3>Lower costs</h3>
-            <p>Save up to 90% vs. legacy payment rails</p>
+            <h3>Low fees</h3>
+            <p>Low, predictable fees designed for mass adoption.</p>
           </div>
 
           <div className="feature-card">
@@ -38,21 +38,10 @@ export default function Features() {
               </svg>
             </div>
             <h3>Interoperable</h3>
-            <p>Seamlessly integrate across chains and systems</p>
+            <p>Cross‑chain connectivity via protocols like ZetaChain.</p>
           </div>
 
-          <div className="feature-card">
-            <div className="feature-icon">
-              <svg width="48" height="48" viewBox="0 0 48 48" fill="none">
-                <path d="M12 20v16a4 4 0 004 4h16a4 4 0 004-4V20" stroke="#4BA3FF" strokeWidth="2" />
-                <path d="M8 12h32l-2 8H10l-2-8z" stroke="#4BA3FF" strokeWidth="2" strokeLinejoin="round" />
-                <circle cx="20" cy="32" r="2" fill="#4BA3FF" />
-                <circle cx="28" cy="32" r="2" fill="#4BA3FF" />
-              </svg>
-            </div>
-            <h3>Simple checkout</h3>
-            <p>From one‑click to subscriptions—everything supported</p>
-          </div>
+          
         </div>
       </div>
     </section>
