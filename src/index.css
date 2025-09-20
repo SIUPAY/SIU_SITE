@@ -1,0 +1,10 @@
+/* 기본값 초기화: 레이아웃은 styles.css에서 정의됩니다. */
+html, body, #root {
+  height: auto;
+}
+body {
+  margin: 0;
+  background: #fafafa;
+  color: #1a1a1a;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}
