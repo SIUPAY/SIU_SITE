@@ -1,8 +1,8 @@
 import { LAUNCH_APP_URL, APK_DOWNLOAD_URL, ANDROID_STORE_URL, IOS_STORE_URL, DEEP_LINK } from '../constants'
 
 export function launchAppSmart() {
-  // 요구사항: 일단은 웹페이지로만 이동 (placeholder)
-  window.open(LAUNCH_APP_URL, '_blank')
+  // 팝업 차단 회피: 같은 탭으로 안전하게 이동
+  window.location.assign(LAUNCH_APP_URL)
 }
 
 export function downloadAppSmart() {

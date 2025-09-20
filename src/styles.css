@@ -201,6 +201,7 @@ body {
     position: relative;
     height: 500px;
     animation: slideInRight 1s ease-out;
+    pointer-events: none; /* 버튼 클릭 가로채지 않도록 */
 }
 
 .floating-card {

@@ -1,5 +1,5 @@
-// PLACEHOLDERS: 실제 배포 시 아래 URL들을 교체하세요
-export const LAUNCH_APP_URL = 'https://your-webpage-url.example' // 웹앱/홈페이지 URL
+// PLACEHOLDER 교체: 실제 Launch 대상 URL
+export const LAUNCH_APP_URL = 'https://app.siu.life' // 웹앱/홈페이지 URL
 export const APK_DOWNLOAD_URL = '/siupay-latest.apk' // public 폴더에 APK를 siupay-latest.apk로 배치
 
 // (선택) 필요 시 딥링크/스토어 링크를 다시 사용할 수 있도록 남겨둠
